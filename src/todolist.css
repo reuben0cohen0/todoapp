@@ -1,0 +1,61 @@
+/* add task field */
+.todoListMain .header input {
+    border: 2px solid #FFF;
+    font-size: 20px;
+    padding: 10px;
+    width: 165px;
+}
+/* add task button */
+.todoListMain .header button {
+    background-color: #0066FF;
+    border: 2px solid #0066FF;
+    color: #FFF;
+    font-size: 20px;
+    margin: 10px;
+    margin-right: 0.0000001px;
+    padding: 10px;
+}
+/* add task button hover properties */
+.todoListMain .header button:hover {
+    background-color: #8E8EAB;
+    border: 2px solid #003399;
+    cursor: pointer;
+    font-size: 25px;
+}
+/* list style */
+.todoListMain .theList {
+    list-style: none;
+    padding-left: 0;
+    width: 100%;
+}
+/* list style */
+.todoListMain .theList li {
+    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 5px;
+    color: #333;
+    font-size: 160%;
+    list-style: none;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+ul.theList {
+    padding: 0;
+}
+/* list style */
+.todoListMain .theList li {
+    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 5px;
+    color: #333;
+    margin-bottom: 15px;
+    padding: 15px;
+/* colour fade after hover */
+    transition: background-color 1s ease-out;
+}
+/* hover colour */
+.todoListMain .theList li:hover {
+    background-color: pink;
+    cursor: pointer;
+}
