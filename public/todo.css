@@ -1,10 +1,6 @@
 body {
     background-color: #FFCA2B;
     font-family: sans-serif;
+    font-size: 20px;
     padding: 5px;
-}
-
-#container {
-    display: flex;
-    justify-content: center;
 }
