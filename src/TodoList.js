@@ -61,7 +61,7 @@ class TodoList extends Component {
             placeholder = "enter task" >
             <
             /input>             <
-            button type = "submit" > add < /button>           <
+            button type = "submit" > add task < /button>           <
             /form>         <
             /div>
 
