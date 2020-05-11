@@ -1,0 +1,11 @@
+body {
+    background-color: #FFCA2B;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+.numlist {
+    font-size: 20px;
+    list-style-position: inside;
+    text-align: center;
+}
